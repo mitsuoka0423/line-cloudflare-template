@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	name TEXT NOT NULL,
+	lineId TEXT NOT NULL UNIQUE,
+	createdAt NOT NULL DEFAULT (DATETIME('now', 'localtime')),
+	updatedAt NOT NULL DEFAULT (DATETIME('now', 'localtime'))
+);
