@@ -18,6 +18,6 @@
   },
   "dependencies": {
     "@line/bot-sdk": "^9.2.0",
-    "hono": "^4.2.9"
+    "hono": "^4.5.8"
   }
 }
